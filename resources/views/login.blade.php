@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Login - Giftify Bloom</title>
         @fonts
-        <!-- @vite(['resources/css/app.css', 'resources/js/app.js']) -->
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="bg-white antialiased min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8">
         <main class="w-full max-w-7xl mx-auto">
@@ -91,7 +91,7 @@
 
                         <div class="w-full mt-6 text-center lg:text-left">
                             <span class="text-sm text-gray-800">Don't have an account? </span>
-                            <a href="#" class="text-sm font-semibold text-[#6d2857] hover:underline transition-colors duration-150">
+                            <a href="{{ route('register') }}" class="text-sm font-semibold text-[#6d2857] hover:underline transition-colors duration-150">
                                 Sign Up
                             </a>
                         </div>
